@@ -1,0 +1,18 @@
+.labelChecked{
+    text-decoration: line-through;
+}
+
+.deleteBtn{
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    margin-left: .5em;
+    text-align: center;
+    font-size: 75%;
+    font-weight: bold;
+    height: 1rem;
+    width: 1.25rem;
+    position: relative;
+    top: -.2em;
+}
