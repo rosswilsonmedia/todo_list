@@ -46,7 +46,7 @@ const ToDoList = () => {
     function submitHandler(e){
         e.preventDefault()
         if(input.error==null){
-            let update=listItems;
+            let update=[...listItems];
             console.log(update);
             update.push({
                 content: input.input,
